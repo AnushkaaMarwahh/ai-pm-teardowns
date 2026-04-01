@@ -1,0 +1,71 @@
+<svg width="100%" viewBox="0 0 740 600" xmlns="http://www.w3.org/2000/svg">
+<style>
+:root { color-scheme: light dark; }
+text { font-family: 'SF Pro Display', 'Inter', system-ui, -apple-system, sans-serif; }
+.title { font-size: 15px; font-weight: 600; fill: #1A1A1A; }
+.subtitle { font-size: 11px; font-weight: 400; fill: #6B7280; }
+.node-label { font-size: 12px; font-weight: 600; }
+.node-desc { font-size: 9.5px; font-weight: 400; fill: #6B7280; }
+.axis-label { font-size: 10px; font-weight: 500; fill: #374151; }
+.axis-end { font-size: 9.5px; font-weight: 400; fill: #9CA3AF; }
+.zone-label { font-size: 9.5px; font-weight: 500; fill: #9CA3AF; }
+.footer { font-size: 9px; font-weight: 400; fill: #9CA3AF; font-style: italic; }
+.stat { font-size: 9px; font-weight: 600; }
+
+.n-sage rect { fill: #EDF5F0; stroke: #2D6A4F; } .n-sage .node-label { fill: #2D6A4F; } .n-sage .stat { fill: #2D6A4F; }
+.n-navy rect { fill: #EFF4F9; stroke: #1E3A5F; } .n-navy .node-label { fill: #1E3A5F; } .n-navy .stat { fill: #1E3A5F; }
+.n-copper rect { fill: #F5EDE7; stroke: #8B4513; } .n-copper .node-label { fill: #8B4513; } .n-copper .stat { fill: #8B4513; }
+.n-plum rect { fill: #F0EDF5; stroke: #5B4A8A; } .n-plum .node-label { fill: #5B4A8A; } .n-plum .stat { fill: #5B4A8A; }
+.n-slate rect { fill: #F3F4F6; stroke: #6B7280; } .n-slate .node-label { fill: #4B5563; }
+
+line.axis { stroke: #D1D5DB; stroke-width: 1; }
+line.fault { stroke: #E5E7EB; stroke-width: 1; stroke-dasharray: 6 4; }
+rect.zone { fill: #FAFAFA; stroke: #E5E7EB; }
+
+@media (prefers-color-scheme: dark) {
+  .title { fill: #E5E7EB; } .subtitle { fill: #9CA3AF; } .node-desc { fill: #9CA3AF; }
+  .axis-label { fill: #D1D5DB; } .axis-end { fill: #6B7280; } .zone-label { fill: #6B7280; }
+  .footer { fill: #6B7280; }
+  .n-sage rect { fill: #1A3D2E; stroke: #4D9B72; } .n-sage .node-label { fill: #86EFAC; } .n-sage .stat { fill: #86EFAC; }
+  .n-navy rect { fill: #172B45; stroke: #4A7FB5; } .n-navy .node-label { fill: #93C5FD; } .n-navy .stat { fill: #93C5FD; }
+  .n-copper rect { fill: #3D2410; stroke: #C87137; } .n-copper .node-label { fill: #FDBA74; } .n-copper .stat { fill: #FDBA74; }
+  .n-plum rect { fill: #2D2550; stroke: #8B7FC7; } .n-plum .node-label { fill: #C4B5FD; } .n-plum .stat { fill: #C4B5FD; }
+  .n-slate rect { fill: #1F2937; stroke: #6B7280; } .n-slate .node-label { fill: #D1D5DB; }
+  line.axis { stroke: #4B5563; } line.fault { stroke: #374151; }
+  rect.zone { fill: #1F2937; stroke: #374151; }
+}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M2 2L8 5L2 8" fill="none" stroke="context-stroke" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<line class="axis" x1="120" y1="80" x2="120" y2="470" marker-end="url(#a)"/>
+<line class="axis" x1="120" y1="470" x2="680" y2="470" marker-end="url(#a)"/>
+
+<text class="axis-label" x="400" y="492" text-anchor="middle">Primary strategy</text>
+<text class="axis-label" x="30" y="280" text-anchor="middle" transform="rotate(-90, 30, 280)">Market positioning</text>
+
+<rect class="zone" x="420" y="88" width="252" height="374" rx="10" stroke-width="0.75" stroke-dasharray="4 3" opacity="0.5"/>
+<text class="zone-label" x="434" y="106">Scale and distribution leaders</text>
+
+
+<g class="n-sage">
+  <rect x="145" y="194" width="205" height="50" rx="6" stroke-width="0.5" stroke-dasharray="3 2"/>
+  <text class="stat" x="155" y="211">Safety-as-differentiator</text>
+  <text class="stat" x="155" y="225">Claude Code: $2.5B ARR</text>
+  <text class="stat" x="155" y="239">$380B valuation (Feb 2026)</text>
+</g>
+
+
+<g class="n-navy">
+  <rect x="438" y="260" width="216" height="62" rx="8" stroke-width="1"/>
+  <text class="node-label" x="546" y="282" text-anchor="middle">OpenAI (ChatGPT)</text>
+  <text class="node-desc" x="546" y="298" text-anchor="middle">800M+ weekly users (reported)</text>
+  <text class="stat" x="546" y="312" text-anchor="middle">Ads in free tier, $500B valuation</text>
+</g>
+
+<text class="footer" x="380" y="545" text-anchor="middle">Strategic framing chart based on publicly reported strategies, March 2026.</text>
+<text class="footer" x="380" y="559" text-anchor="middle">Axes reflect an interpretive thesis on market positioning, not an objective benchmark.</text>
+</svg>
