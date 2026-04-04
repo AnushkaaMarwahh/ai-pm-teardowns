@@ -1,0 +1,161 @@
+<svg width="100%" viewBox="-30 0 750 580" xmlns="http://www.w3.org/2000/svg">
+<style>
+:root { color-scheme: light dark; }
+text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+.th { font-size: 13.5px; font-weight: 500; fill: #2C2C2A; }
+.ts { font-size: 11.5px; font-weight: 400; fill: #5F5E5A; }
+.tf { font-size: 10.5px; font-weight: 400; fill: #888780; }
+
+/* Blue - GitHub Copilot */
+.c-blue rect { fill: #E6F1FB; stroke: #185FA5; }
+.c-blue .th { fill: #0C447C; }
+.c-blue .ts { fill: #185FA5; }
+
+/* Gray - Windsurf */
+.c-gray rect { fill: #F1EFE8; stroke: #888780; }
+.c-gray .th { fill: #2C2C2A; }
+.c-gray .ts { fill: #5F5E5A; }
+
+/* Teal - Cursor (emphasized) */
+.c-teal rect { fill: #E1F5EE; stroke: #0F6E56; }
+.c-teal .th { fill: #085041; }
+.c-teal .ts { fill: #0F6E56; }
+
+/* Purple - Antigravity */
+.c-purple rect { fill: #EEEDFE; stroke: #534AB7; }
+.c-purple .th { fill: #3C3489; }
+.c-purple .ts { fill: #534AB7; }
+
+/* Coral - Claude Code */
+.c-coral rect { fill: #FAECE7; stroke: #993C1D; }
+.c-coral .th { fill: #712B13; }
+.c-coral .ts { fill: #993C1D; }
+
+/* Amber - OpenAI Codex */
+.c-amber rect { fill: #FAEEDA; stroke: #854F0B; }
+.c-amber .th { fill: #633806; }
+.c-amber .ts { fill: #854F0B; }
+
+/* Pink - Devin */
+.c-pink rect { fill: #FBEAF0; stroke: #993556; }
+.c-pink .th { fill: #72243E; }
+.c-pink .ts { fill: #993556; }
+
+/* Structural */
+.axis { stroke: #B4B2A9; stroke-width: 1; }
+.zone { fill: #F1EFE8; stroke: #B4B2A9; stroke-width: 0.5; stroke-dasharray: 4 3; }
+.fault { stroke: #B4B2A9; stroke-width: 1; stroke-dasharray: 6 4; }
+.callout-line { stroke: #0F6E56; stroke-width: 0.5; stroke-dasharray: 3 2; }
+.callout-dot { fill: #0F6E56; }
+
+@media (prefers-color-scheme: dark) {
+  .th { fill: #D3D1C7; } .ts { fill: #888780; } .tf { fill: #5F5E5A; }
+  .c-blue rect  { fill: #0C447C; stroke: #85B7EB; } .c-blue .th  { fill: #B5D4F4; } .c-blue .ts  { fill: #85B7EB; }
+  .c-gray rect  { fill: #444441; stroke: #888780; } .c-gray .th  { fill: #D3D1C7; } .c-gray .ts  { fill: #B4B2A9; }
+  .c-teal rect  { fill: #085041; stroke: #5DCAA5; } .c-teal .th  { fill: #9FE1CB; } .c-teal .ts  { fill: #5DCAA5; }
+  .c-purple rect{ fill: #3C3489; stroke: #AFA9EC; } .c-purple .th{ fill: #CECBF6; } .c-purple .ts{ fill: #AFA9EC; }
+  .c-coral rect { fill: #712B13; stroke: #F0997B; } .c-coral .th { fill: #F5C4B3; } .c-coral .ts { fill: #F0997B; }
+  .c-amber rect { fill: #633806; stroke: #FAC775; } .c-amber .th { fill: #FAEEDA; } .c-amber .ts { fill: #FAC775; }
+  .c-pink rect  { fill: #72243E; stroke: #ED93B1; } .c-pink .th  { fill: #F4C0D1; } .c-pink .ts  { fill: #ED93B1; }
+  .axis { stroke: #5F5E5A; }
+  .zone { fill: #2C2C2A; stroke: #5F5E5A; }
+  .fault { stroke: #5F5E5A; }
+  .callout-line { stroke: #5DCAA5; }
+  .callout-dot { fill: #5DCAA5; }
+}
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<!-- Title -->
+<text class="th" x="350" y="28" text-anchor="middle" font-size="14">AI coding tools: competitive positioning (March 2026)</text>
+<text class="ts" x="350" y="46" text-anchor="middle">The market is splitting between IDE-first and agent-first approaches</text>
+
+<!-- ===== Axes ===== -->
+<line class="axis" x1="100" y1="75" x2="100" y2="475" marker-end="url(#arrow)"/>
+<line class="axis" x1="100" y1="475" x2="650" y2="475" marker-end="url(#arrow)"/>
+
+<!-- Axis endpoint labels -->
+<text class="ts" x="94" y="73" text-anchor="end">Deeply embedded</text>
+<text class="ts" x="94" y="473" text-anchor="end">Standalone tool</text>
+<text class="ts" x="108" y="497" text-anchor="start">Assists</text>
+<text class="ts" x="642" y="497" text-anchor="end">Executes autonomously</text>
+
+<!-- Axis titles -->
+<text class="tf" x="14" y="275" text-anchor="middle" transform="rotate(-90 14 275)">Editor integration</text>
+<text class="tf" x="375" y="510" text-anchor="middle">AI autonomy</text>
+
+<!-- ===== Zone: IDE-first tools ===== -->
+<rect class="zone" x="108" y="82" width="230" height="200" rx="12" opacity="0.4"/>
+<text class="ts" x="118" y="100" opacity="0.5">IDE-first tools</text>
+
+<!-- ===== Zone: Agent-first tools ===== -->
+<rect class="zone" x="345" y="260" width="280" height="205" rx="12" opacity="0.4"/>
+<text class="ts" x="355" y="278" opacity="0.5">Agent-first tools</text>
+
+<!-- ===== Fault line (dashed vertical) ===== -->
+<line class="fault" x1="340" y1="78" x2="340" y2="468" opacity="0.35"/>
+
+<!-- ===== GitHub Copilot (blue, upper-left) ===== -->
+<g class="c-blue">
+  <rect x="118" y="120" width="150" height="52" rx="10" stroke-width="0.5"/>
+  <text class="th" x="193" y="143" text-anchor="middle">GitHub Copilot</text>
+  <text class="ts" x="193" y="160" text-anchor="middle">Extension-based</text>
+</g>
+
+<!-- ===== Windsurf (gray, middle-left) ===== -->
+<g class="c-gray">
+  <rect x="210" y="195" width="120" height="52" rx="10" stroke-width="0.5"/>
+  <text class="th" x="270" y="218" text-anchor="middle">Windsurf</text>
+  <text class="ts" x="270" y="235" text-anchor="middle">IDE fork</text>
+</g>
+
+<!-- ===== Cursor (teal, straddling fault line, emphasized) ===== -->
+<g class="c-teal">
+  <rect x="350" y="100" width="150" height="52" rx="10" stroke-width="1"/>
+  <text class="th" x="425" y="123" text-anchor="middle">Cursor</text>
+  <text class="ts" x="425" y="140" text-anchor="middle">IDE fork + agents</text>
+</g>
+
+<!-- Cursor callout annotations -->
+<line class="callout-line" x1="500" y1="115" x2="530" y2="100"/>
+<circle class="callout-dot" cx="500" cy="115" r="2"/>
+<text class="tf" x="535" y="96">Deep codebase context</text>
+<text class="tf" x="535" y="110">Embedded in workflow</text>
+<text class="tf" x="535" y="124">Moving from assistant to agent</text>
+
+<!-- ===== Antigravity (purple, right side, upper) ===== -->
+<g class="c-purple">
+  <rect x="505" y="170" width="130" height="52" rx="10" stroke-width="0.5"/>
+  <text class="th" x="570" y="193" text-anchor="middle">Antigravity</text>
+  <text class="ts" x="570" y="210" text-anchor="middle">Google / agent-first</text>
+</g>
+
+<!-- ===== Claude Code (coral, agent-first zone) ===== -->
+<g class="c-coral">
+  <rect x="400" y="300" width="150" height="52" rx="10" stroke-width="0.5"/>
+  <text class="th" x="475" y="323" text-anchor="middle">Claude Code</text>
+  <text class="ts" x="475" y="340" text-anchor="middle">Terminal-native agent</text>
+</g>
+
+<!-- ===== OpenAI Codex (amber, agent-first zone) ===== -->
+<g class="c-amber">
+  <rect x="355" y="380" width="140" height="52" rx="10" stroke-width="0.5"/>
+  <text class="th" x="425" y="403" text-anchor="middle">OpenAI Codex</text>
+  <text class="ts" x="425" y="420" text-anchor="middle">Cloud agent</text>
+</g>
+
+<!-- ===== Devin (pink, agent-first zone, far right) ===== -->
+<g class="c-pink">
+  <rect x="530" y="375" width="90" height="52" rx="10" stroke-width="0.5"/>
+  <text class="th" x="575" y="398" text-anchor="middle">Devin</text>
+  <text class="ts" x="575" y="415" text-anchor="middle">Autonomous</text>
+</g>
+
+<!-- Footer -->
+<text class="tf" x="350" y="545" text-anchor="middle">Based on publicly available product positioning as of March 2026</text>
+
+</svg>
