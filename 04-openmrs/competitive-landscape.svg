@@ -1,0 +1,60 @@
+<svg viewBox="0 0 780 540" xmlns="http://www.w3.org/2000/svg">
+  <rect width="780" height="540" fill="#ffffff"/>
+  <style>text { font-family: Arial, Helvetica, sans-serif; }</style>
+
+  <!-- Title -->
+  <text x="390" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#333333">Where AI creates value in OpenMRS</text>
+  <text x="390" y="39" text-anchor="middle" font-size="11" fill="#888888">Four integration opportunities mapped by clinical impact and data readiness</text>
+
+  <!-- Chart area: x=84 to 728, y=56 to 452 -->
+
+  <!-- Y-axis label (rotated) -->
+  <text transform="translate(16,254) rotate(-90)" text-anchor="middle" font-size="11" fill="#777777">Clinical impact</text>
+
+  <!-- Y-axis top/bottom labels -->
+  <text x="80" y="70" text-anchor="end" font-size="10" fill="#999999">High clinical impact</text>
+  <text x="80" y="452" text-anchor="end" font-size="10" fill="#999999">Lower clinical impact</text>
+
+  <!-- X-axis left/right labels -->
+  <text x="88" y="472" text-anchor="start" font-size="10" fill="#999999">Data less ready</text>
+  <text x="724" y="472" text-anchor="end" font-size="10" fill="#999999">Data more ready</text>
+
+  <!-- Axes lines -->
+  <line x1="86" y1="56" x2="86" y2="454" stroke="#dddddd" stroke-width="1"/>
+  <line x1="86" y1="454" x2="726" y2="454" stroke="#dddddd" stroke-width="1"/>
+
+  <!-- Light grid lines -->
+  <line x1="86" y1="254" x2="726" y2="254" stroke="#f0f0f0" stroke-width="1"/>
+  <line x1="406" y1="56" x2="406" y2="454" stroke="#f0f0f0" stroke-width="1"/>
+
+  <!-- ===== BOXES ===== -->
+
+  <!-- Clinical decision support — upper-right (teal) -->
+  <rect x="468" y="82" width="228" height="58" rx="6" fill="#d5f2e8" stroke="#4db893" stroke-width="1.5"/>
+  <text x="582" y="104" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f7a55">Clinical decision support</text>
+  <text x="582" y="122" text-anchor="middle" font-size="9.5" fill="#1f7a55">Concept dictionary enables this</text>
+
+  <!-- "Highest value" annotation -->
+  <text x="470" y="170" text-anchor="start" font-size="9" fill="#888888" font-style="italic">Highest value: structured data ready,</text>
+  <text x="470" y="184" text-anchor="start" font-size="9" fill="#888888" font-style="italic">HIV/TB use cases proven</text>
+  <!-- Dashed line from annotation to Clinical decision support -->
+  <line x1="540" y1="165" x2="572" y2="140" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- NLP on clinical notes — upper-left (purple) -->
+  <rect x="108" y="178" width="220" height="58" rx="6" fill="#ede9f8" stroke="#9b87d8" stroke-width="1.5"/>
+  <text x="218" y="200" text-anchor="middle" font-size="12" font-weight="bold" fill="#574898">NLP on clinical notes</text>
+  <text x="218" y="218" text-anchor="middle" font-size="9.5" fill="#574898">Free text is unstructured</text>
+
+  <!-- Population-level analytics — middle-right (light blue) -->
+  <rect x="458" y="255" width="236" height="58" rx="6" fill="#ddeeff" stroke="#5588cc" stroke-width="1.5"/>
+  <text x="576" y="277" text-anchor="middle" font-size="12" font-weight="bold" fill="#2a5a9b">Population-level analytics</text>
+  <text x="576" y="295" text-anchor="middle" font-size="9.5" fill="#2a5a9b">Years of cross-site data</text>
+
+  <!-- Automated data quality — lower-right (orange) -->
+  <rect x="468" y="350" width="220" height="58" rx="6" fill="#fde8d2" stroke="#d97a3a" stroke-width="1.5"/>
+  <text x="578" y="372" text-anchor="middle" font-size="12" font-weight="bold" fill="#9b4015">Automated data quality</text>
+  <text x="578" y="390" text-anchor="middle" font-size="9.5" fill="#9b4015">Anomaly detection on entry</text>
+
+  <!-- Caption -->
+  <text x="390" y="506" text-anchor="middle" font-size="9" fill="#aaaaaa" font-style="italic">Assessment based on OpenMRS data architecture and published community discussions</text>
+</svg>
