@@ -1,0 +1,120 @@
+<svg viewBox="0 0 780 680" xmlns="http://www.w3.org/2000/svg">
+  <rect width="780" height="680" fill="#ffffff"/>
+  <style>text { font-family: Arial, Helvetica, sans-serif; }</style>
+
+  <!-- Title -->
+  <text x="390" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#333333">Anthropic Platform: Multi-Surface Architecture</text>
+  <text x="390" y="39" text-anchor="middle" font-size="11" fill="#888888">One model family, four surfaces, three clouds</text>
+
+  <!-- ===== ROW 1: Model Family ===== -->
+  <text x="390" y="60" text-anchor="middle" font-size="11" fill="#aaaaaa">Model Family</text>
+
+  <!-- Haiku -->
+  <rect x="68" y="68" width="188" height="50" rx="6" fill="#d5f2e8" stroke="#4db893" stroke-width="1.5"/>
+  <text x="162" y="89" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f7a55">Haiku</text>
+  <text x="162" y="107" text-anchor="middle" font-size="9.5" fill="#1f7a55">Fast, cheap, high-volume</text>
+
+  <!-- Sonnet -->
+  <rect x="296" y="68" width="188" height="50" rx="6" fill="#ddeeff" stroke="#5588cc" stroke-width="1.5"/>
+  <text x="390" y="89" text-anchor="middle" font-size="12" font-weight="bold" fill="#2a5a9b">Sonnet</text>
+  <text x="390" y="107" text-anchor="middle" font-size="9.5" fill="#2a5a9b">Balanced workhorse</text>
+
+  <!-- Opus -->
+  <rect x="524" y="68" width="188" height="50" rx="6" fill="#ede9f8" stroke="#9b87d8" stroke-width="1.5"/>
+  <text x="618" y="89" text-anchor="middle" font-size="12" font-weight="bold" fill="#574898">Opus</text>
+  <text x="618" y="107" text-anchor="middle" font-size="9.5" fill="#574898">Premium reasoning</text>
+
+  <!-- ===== Connector + label: Intelligent Model Routing ===== -->
+  <polyline points="162,118 162,138 390,138 390,148" fill="none" stroke="#cccccc" stroke-width="1"/>
+  <polyline points="390,118 390,138" fill="none" stroke="#cccccc" stroke-width="1"/>
+  <polyline points="618,118 618,138 390,138" fill="none" stroke="#cccccc" stroke-width="1"/>
+  <rect x="240" y="148" width="300" height="30" rx="4" fill="#f6f6f6" stroke="#dddddd" stroke-width="1"/>
+  <text x="390" y="168" text-anchor="middle" font-size="11" fill="#777777">Intelligent Model Routing</text>
+
+  <!-- Arrow down -->
+  <line x1="390" y1="178" x2="390" y2="194" stroke="#cccccc" stroke-width="1"/>
+  <polygon points="390,199 385,191 395,191" fill="#cccccc"/>
+
+  <!-- ===== ROW 2: Product Surfaces ===== -->
+  <text x="390" y="212" text-anchor="middle" font-size="11" fill="#aaaaaa">Product Surfaces</text>
+
+  <!-- claude.ai -->
+  <rect x="40" y="220" width="160" height="62" rx="6" fill="#d5f2e8" stroke="#4db893" stroke-width="1.5"/>
+  <text x="120" y="241" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f7a55">claude.ai</text>
+  <text x="120" y="258" text-anchor="middle" font-size="9" fill="#1f7a55">Consumer chat interface</text>
+  <text x="120" y="273" text-anchor="middle" font-size="9" fill="#1f7a55">Free / Pro / Max tiers</text>
+
+  <!-- API -->
+  <rect x="216" y="220" width="160" height="62" rx="6" fill="#ddeeff" stroke="#5588cc" stroke-width="1.5"/>
+  <text x="296" y="241" text-anchor="middle" font-size="12" font-weight="bold" fill="#2a5a9b">API</text>
+  <text x="296" y="258" text-anchor="middle" font-size="9" fill="#2a5a9b">Developer / Enterprise</text>
+  <text x="296" y="273" text-anchor="middle" font-size="9" fill="#2a5a9b">Token-based pricing</text>
+
+  <!-- Claude Code -->
+  <rect x="392" y="220" width="160" height="62" rx="6" fill="#d5f2e8" stroke="#4db893" stroke-width="1.5"/>
+  <text x="472" y="241" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f7a55">Claude Code</text>
+  <text x="472" y="258" text-anchor="middle" font-size="9" fill="#1f7a55">Agentic coding tool</text>
+  <text x="472" y="273" text-anchor="middle" font-size="9" fill="#1f7a55">$2.5B ARR Feb 2026</text>
+
+  <!-- Cowork -->
+  <rect x="568" y="220" width="172" height="62" rx="6" fill="#ddeeff" stroke="#5588cc" stroke-width="1.5"/>
+  <text x="654" y="241" text-anchor="middle" font-size="12" font-weight="bold" fill="#2a5a9b">Cowork</text>
+  <text x="654" y="258" text-anchor="middle" font-size="9" fill="#2a5a9b">Desktop agent</text>
+  <text x="654" y="273" text-anchor="middle" font-size="9" fill="#2a5a9b">Non-developer tasks</text>
+
+  <!-- Arrow down to User Segments -->
+  <line x1="390" y1="282" x2="390" y2="298" stroke="#cccccc" stroke-width="1"/>
+  <polygon points="390,303 385,295 395,295" fill="#cccccc"/>
+
+  <!-- ===== ROW 3: User Segments ===== -->
+  <text x="390" y="316" text-anchor="middle" font-size="11" fill="#aaaaaa">User Segments</text>
+
+  <!-- Individuals -->
+  <rect x="40" y="324" width="156" height="36" rx="6" fill="#f6f6f6" stroke="#cccccc" stroke-width="1.5"/>
+  <text x="118" y="347" text-anchor="middle" font-size="12" fill="#444444">Individuals</text>
+
+  <!-- Enterprises -->
+  <rect x="212" y="324" width="156" height="36" rx="6" fill="#f6f6f6" stroke="#cccccc" stroke-width="1.5"/>
+  <text x="290" y="347" text-anchor="middle" font-size="12" fill="#444444">Enterprises</text>
+
+  <!-- Developers -->
+  <rect x="384" y="324" width="156" height="36" rx="6" fill="#f6f6f6" stroke="#cccccc" stroke-width="1.5"/>
+  <text x="462" y="347" text-anchor="middle" font-size="12" fill="#444444">Developers</text>
+
+  <!-- Teams -->
+  <rect x="556" y="324" width="184" height="36" rx="6" fill="#f6f6f6" stroke="#cccccc" stroke-width="1.5"/>
+  <text x="648" y="347" text-anchor="middle" font-size="12" fill="#444444">Teams</text>
+
+  <!-- Arrow down to Cloud Distribution (only from Enterprises and Developers) -->
+  <polyline points="290,360 290,380 390,380 390,390" fill="none" stroke="#cccccc" stroke-width="1"/>
+  <polyline points="462,360 462,380 390,380" fill="none" stroke="#cccccc" stroke-width="1"/>
+  <line x1="390" y1="360" x2="390" y2="380" stroke="#cccccc" stroke-width="0.5"/>
+  <polygon points="390,395 385,387 395,387" fill="#cccccc"/>
+
+  <!-- ===== Cloud Distribution label ===== -->
+  <text x="390" y="410" text-anchor="middle" font-size="11" fill="#aaaaaa">Cloud Distribution (API + Enterprise)</text>
+
+  <!-- AWS Bedrock -->
+  <rect x="86" y="418" width="178" height="40" rx="6" fill="#f6f6f6" stroke="#cccccc" stroke-width="1.5"/>
+  <text x="175" y="443" text-anchor="middle" font-size="11" fill="#444444">AWS Bedrock</text>
+
+  <!-- Google Vertex AI -->
+  <rect x="301" y="418" width="178" height="40" rx="6" fill="#f6f6f6" stroke="#cccccc" stroke-width="1.5"/>
+  <text x="390" y="443" text-anchor="middle" font-size="11" fill="#444444">Google Vertex AI</text>
+
+  <!-- Microsoft Azure -->
+  <rect x="516" y="418" width="178" height="40" rx="6" fill="#f6f6f6" stroke="#cccccc" stroke-width="1.5"/>
+  <text x="605" y="443" text-anchor="middle" font-size="11" fill="#444444">Microsoft Azure</text>
+
+  <!-- Dashed connector line indicating vertical dependency -->
+  <line x1="390" y1="458" x2="390" y2="472" stroke="#cccccc" stroke-width="1" stroke-dasharray="4,3"/>
+  <polygon points="390,477 385,469 395,469" fill="#cccccc"/>
+
+  <!-- ===== Foundation: Constitutional AI ===== -->
+  <rect x="86" y="477" width="608" height="44" rx="6" fill="#fde8d2" stroke="#d97a3a" stroke-width="1.5"/>
+  <text x="390" y="496" text-anchor="middle" font-size="12" font-weight="bold" fill="#9b4015">Foundation: Constitutional AI</text>
+  <text x="390" y="512" text-anchor="middle" font-size="9.5" fill="#9b4015">Principle-based alignment across all models and surfaces</text>
+
+  <!-- Caption -->
+  <text x="390" y="548" text-anchor="middle" font-size="9" fill="#aaaaaa" font-style="italic">Conceptual architecture based on public documentation and product experience, March 2026</text>
+</svg>
