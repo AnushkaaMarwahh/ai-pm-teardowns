@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#111128;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1b2a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.15" />
+    </linearGradient>
+    <linearGradient id="subtleGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="0.5">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="200" y1="0" x2="200" y2="300"/>
+    <line x1="400" y1="0" x2="400" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="800" y1="0" x2="800" y2="300"/>
+    <line x1="1000" y1="0" x2="1000" y2="300"/>
+  </g>
+
+  <!-- Top glow -->
+  <rect width="1200" height="150" fill="url(#subtleGlow)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="150" r="180" fill="none" stroke="#3B82F6" stroke-width="0.5" opacity="0.08"/>
+  <circle cx="1100" cy="150" r="200" fill="none" stroke="#8B5CF6" stroke-width="0.5" opacity="0.06"/>
+  <circle cx="600" cy="150" r="280" fill="none" stroke="#6366F1" stroke-width="0.3" opacity="0.04"/>
+
+  <!-- Small accent dots -->
+  <circle cx="150" cy="80" r="2" fill="#3B82F6" opacity="0.4"/>
+  <circle cx="350" cy="45" r="1.5" fill="#8B5CF6" opacity="0.3"/>
+  <circle cx="850" cy="65" r="2" fill="#EC4899" opacity="0.3"/>
+  <circle cx="1050" cy="90" r="1.5" fill="#3B82F6" opacity="0.35"/>
+  <circle cx="250" cy="250" r="1.5" fill="#8B5CF6" opacity="0.25"/>
+  <circle cx="950" cy="240" r="2" fill="#3B82F6" opacity="0.3"/>
+
+  <!-- Gradient accent line -->
+  <rect x="350" y="108" width="500" height="2" rx="1" fill="url(#accent1)" opacity="0.6"/>
+
+  <!-- Title -->
+  <text x="600" y="90" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" letter-spacing="6" fill="#8B949E" text-rendering="geometricPrecision">AI PRODUCT MANAGEMENT</text>
+
+  <text x="600" y="155" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF" text-rendering="geometricPrecision">AI Product Teardowns</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="195" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="16" font-weight="400" fill="#8B949E" text-rendering="geometricPrecision">Architecture · Decisions · Competitive Positioning</text>
+
+  <!-- Author line -->
+  <text x="600" y="235" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#58A6FF" text-rendering="geometricPrecision">Anushka Marwah · March 2026</text>
+
+  <!-- Bottom gradient line -->
+  <rect x="0" y="296" width="1200" height="4" fill="url(#accent1)"/>
+</svg>
