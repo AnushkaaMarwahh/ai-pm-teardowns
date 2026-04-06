@@ -12,7 +12,7 @@
 
 <br/>
 
-## About This Portfolio
+## About This Repository
 
 This repository contains product teardowns written from the perspective of an AI Technical Product Manager. Each one goes beyond surface-level feature comparison to analyze **architecture, product decisions, competitive dynamics, and unit economics** — the things that actually determine whether an AI product wins or dies.
 
